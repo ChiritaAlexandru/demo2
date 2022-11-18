@@ -14,6 +14,7 @@ public class UserController {
 
     @GetMapping("/")
     public String m1(){
+        System.out.println("");
         return "hello";
     }
 
