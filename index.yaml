@@ -1,12 +1,12 @@
 apiVersion: v1
 entries:
-  demo2-chart:
+  demo2:
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2022-11-18T17:25:50.7495829+02:00"
     description: A Helm chart for Kubernetes
     digest: 0ad8842de702961821e8893822d1b1f7e606136c0d9f1c2b810e0d0b538e3b2c
-    name: demo2-chart
+    name: demo2
     type: application
     urls:
     - https://github.com/ChiritaAlexandru/demo2.git/demo2-chart-0.1.0.tgz
