@@ -80,3 +80,7 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+environmentMap:
+  - name: age
+    value: {.Values.age}
