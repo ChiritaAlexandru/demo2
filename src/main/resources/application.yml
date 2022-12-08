@@ -1,1 +1,14 @@
 age: alex1
+
+management:
+  server:
+    port: 8080
+  endpoint:
+    health:
+      probes:
+        enabled: true
+  health:
+    livenessState:
+      enabled: true
+    readinessState:
+      enabled: true
